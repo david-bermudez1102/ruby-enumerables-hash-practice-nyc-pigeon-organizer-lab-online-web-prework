@@ -31,7 +31,7 @@ def nyc_pigeon_organizer(data)
         sub_item.each_with_object([]) do |attribute_value, array|
           if(value.include?(attribute_value))
            array << attribute_value
-         end
+          end
          final[item][attribute] = array
        end
       end
@@ -39,4 +39,4 @@ def nyc_pigeon_organizer(data)
 
 final
 end
-nyc_pigeon_organizer(pigeon_data)
+
