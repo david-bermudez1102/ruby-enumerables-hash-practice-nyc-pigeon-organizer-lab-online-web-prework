@@ -26,6 +26,11 @@ def nyc_pigeon_organizer(data)
       end
     end
 
+    attributes.each do |attribute,value|
+      result.each do |item,sub_item|
+        final[item][attribute] = ""
+      end
+    end
 
 final
 end
