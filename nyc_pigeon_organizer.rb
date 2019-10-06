@@ -15,9 +15,8 @@ def nyc_pigeon_organizer(data)
     end
 
     data.each do |item,sub_item|
-
       sub_item.each do |key2,value2|
-          attributes[item] << key2.to_s
+        attributes[item] << key2.to_s
       end
     end
 
