@@ -24,7 +24,7 @@ def nyc_pigeon_organizer(data)
       attributes.each do |attribute,value|
       final[item] = {}
       final[item][attribute] = ""
-    end
+      end
     end
 
 
