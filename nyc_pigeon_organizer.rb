@@ -1,7 +1,7 @@
 def nyc_pigeon_organizer(data)
   attributes = Hash.new { |h, k| h[k] = [] } #hash with the atributes color, gender, lives
   result = Hash.new { |h, k| h[k] = [] } #hash with each person with no organized attributes
-  
+
   final = {}
 
     data.each do |item,sub_item|
