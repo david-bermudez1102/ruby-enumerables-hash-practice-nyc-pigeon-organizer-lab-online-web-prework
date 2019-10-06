@@ -5,9 +5,7 @@ def nyc_pigeon_organizer(data)
   final = {} #Our final hash
 
     data.each do |item,sub_item|
-
       sub_item.each do |key2,value2|
-
         value2.each do |item2|
           result[item2] << key2.to_s
         end
