@@ -9,7 +9,6 @@ def nyc_pigeon_organizer(data)
 
         value2.each do |item2|
           result[item2] << key2.to_s
-          final[item2] = {:item = ""}
         end
       end
     end
@@ -22,9 +21,11 @@ def nyc_pigeon_organizer(data)
     end
 
     result.each do |item,sub_item|
+      attributes.each do |attribute,value|
       final[item] = {}
+      final[item][attribute] = ""
     end
-
+    
 
 final
 end
