@@ -25,7 +25,7 @@ def nyc_pigeon_organizer(data)
       final[item] = {}
       final[item][attribute] = ""
     end
-    
+
 
 final
 end
