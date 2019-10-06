@@ -29,10 +29,11 @@ def nyc_pigeon_organizer(data)
     attributes.each do |attribute,value|
       result.each do |item,sub_item|
         sub_item.each_with_object([]) do |attribute_value, array|
-        if(value.includes(attribute_value))
-         array << attribute_value
+          if(value.includes(attribute_value))
+           array << attribute_value
+         end
+         final[item][attribute] = array
        end
-        final[item][attribute] = array
       end
     end
 
