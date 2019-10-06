@@ -32,7 +32,7 @@ def nyc_pigeon_organizer(data)
           if(value.include?(attribute_value))
            array << attribute_value
           end
-         final[item][attribute] = array
+          final[item][attribute] = array
        end
       end
     end
